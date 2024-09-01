@@ -238,10 +238,10 @@ input, select, textarea {
 		}
 
 			h1.major:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #660055);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #660055);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #660055);
-				background-image: linear-gradient(to right, #5e42a6, #660055);
+				background-image: -moz-linear-gradient(to right, #5e42a6, #dd23f3);
+				background-image: -webkit-linear-gradient(to right, #5e42a6, #dd23f3);
+				background-image: -ms-linear-gradient(to right, #5e42a6, #dd23f3);
+				background-image: linear-gradient(to right, #5e42a6, #dd23f3);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -2485,7 +2485,7 @@ input, select, textarea {
 		input[type="radio"]:checked + label:before {
 			background: #ffffff;
 			border-color: #ffffff;
-			color: #660055;
+			color: #dd23f3;
 			content: '\f00c';
 		}
 
@@ -3808,10 +3808,10 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #660055);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #660055);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #660055);
-				background-image: linear-gradient(to right, #5e42a6, #660055);
+				background-image: -moz-linear-gradient(to right, #5e42a6, #dd23f3);
+				background-image: -webkit-linear-gradient(to right, #5e42a6, #dd23f3);
+				background-image: -ms-linear-gradient(to right, #5e42a6, #dd23f3);
+				background-image: linear-gradient(to right, #5e42a6, #dd23f3);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -3900,7 +3900,7 @@ input, select, textarea {
 
 						#sidebar nav a:after {
 							background-image: none;
-							background-color: #660055;
+							background-color: #dd23f3;
 						}
 
 		}
