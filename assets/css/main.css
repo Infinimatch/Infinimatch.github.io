@@ -59,7 +59,9 @@ table {
 body {
 	-webkit-text-size-adjust: none;
 }
-
+.webApp {
+	margin-bottom: 50px;
+}
 mark {
 	background-color: transparent;
 	color: inherit;
@@ -3987,5 +3989,12 @@ input, select, textarea {
 			#intro {
 				background-attachment: scroll;
 			}
+
+		}
+		.webApp {
+			margin-bottom: 50px;
+		}
+		.webApp a {
+			text-decoration: none !important;
 
 		}
