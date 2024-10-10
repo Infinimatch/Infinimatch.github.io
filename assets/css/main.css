@@ -7,7 +7,9 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 html {
-	scroll-behavior: smooth
+	scroll-behavior: smooth;
+
+
 }
 
 html, body, div, span, applet, object,
@@ -115,6 +117,38 @@ input, select, textarea {
 	align-items: center;
 	justify-content: center;
 }
+
+.arrow {
+    border: black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+.down {
+    border: solid #202f36;
+    border-width: 0 3px 3px 0;
+    border-radius: 0%;
+    bottom: 0;
+    margin-bottom: 40px;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    animation: bob 2s ease-in-out infinite alternate;
+    transition: transform 0.3s;
+}
+@keyframes bob {
+    0% {
+        transform: rotate(45deg) translateY(0);
+    }
+    50% {
+        transform: rotate(45deg) translateX(-10px) translateY(-10px);
+    }
+    100% {
+        transform: rotate(45deg) translateY(0);
+    }
+}
+
 /* Custom Code Ends */
 
 /* Basic */
