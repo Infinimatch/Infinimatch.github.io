@@ -35,11 +35,10 @@
 					<nav>
 						<ul>
 							<li><a href="#intro" style="font-size: 14px;">Infinimatch</a></li>
-							<li><a href="#WebApp" style="font-size: 14px;">Web App</a></li>
 							<li><a href="#one" style="font-size: 14px;">What is Infinimatch</a></li>
+							<li><a href="#four" style="font-size: 14px;">Join the waitlist</a></li>
 							<li><a href="#two" style="font-size: 14px;">What makes us different</a></li>
 							<li><a href="#three" style="font-size: 14px;">Who are we</a></li>
-							<li><a href="#four" style="font-size: 14px;">Join the waitlist</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -73,30 +72,47 @@
 								</ul>
 							</div>
 						</section>
+						<!-- Perhaps a link to an APK here for the schizos... -->
+					
+					</section>
 						<section class="app-box">
-							
-							<div class="apps" id="WebApp">
-								<h3 style="font-size: 30px" class="webApp">Try The Web App!</h3>
-								<a href="https://web.infinimatch.app/login" target="_blank" style="text-decoration: none !important; border: 0 !important;"><img src="images/web (1).svg" class="AppStoreIcon" style="width: 90%; text-decoration: none !important; border: 0 !important;"></a>
+							<div class="apps Apple">
+								<h3 style="font-size: 30px">Coming Soon to App Store</h3>
+								</br>
+								<img src="images/Apple App Store.svg" class="AppStoreIcon AppleAppStoreIcon">
+							</div>
+							<div class="apps Google">
+								<h3 style="font-size: 30px">Coming Soon to Play Store</h3>
+								</br>
+								<img src="images/Google Play Store.png" class="AppStoreIcon GooglePlayStoreIcon">
 							</div>
 						</section>
 						<!-- Perhaps a link to an APK here for the schizos... -->
-					</section>
-						<section class="app-box">
-							<div class="apps">
-								<h3 style="font-size: 30px">App Store</h3>
+						<section id="four" class="wrapper style1 fade-up">
+							<div class="inner waitlistFormWrapper">
+								<h2 style="justify-self: center; font-size: 40px;">Join the Waitlist</h2>
 								</br>
-								<img src="images/Apple App Store.svg" class="AppStoreIcon" style="width: 70%">
-							</div>
-							<div class="apps">
-								<h3 style="font-size: 30px">Play Store</h3>
-								</br>
-								<img src="images/Google Play Store.png" class="AppStoreIcon" style="width: 75%">
+								<div class="waitlistForm">
+									<section>
+										<script type="text/javascript">var submitted=false</script>
+										<iframe name="hiddenConfirm" id="hiddenConfirm" style="display:none;" onload="if(submitted){window.location='submition.html';}"></iframe>
+										<form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSelIZ6exmFhbHta468WozmrqfaUh51g3DMXT1qLIWOhEtP9Zg/formResponse" method="post" target="hiddenConfirm" onsubmit="submitted=true" style="display:grid">
+											<div class="FormFields">
+											<label>Full Name</label>
+											<input type="text" name="entry.1968374558" required placeholder="Full Name" />
+											</div>
+											<br/>
+											<div class="FormFields">
+											<label>Email</label>
+											<input type="email" name="entry.1025443795" required placeholder="Email" pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,63}$" oninvalid="this.setCustomValidity('Please enter a valid email address')" oninput="this.setCustomValidity('')" />
+											</div>
+											<br/>
+											<button type="submit" style="justify-self: center; width: min-content;" style="font-size: 18px;">Subscribe</button>
+										</form>
+									</section>
+								</div>
 							</div>
 						</section>
-						<!-- Perhaps a link to an APK here for the schizos... -->
-					</section>
-
 				<!-- Two -->
 					<section id="two" class="wrapper style3 fade-up">
 						<div class="inner">
@@ -129,19 +145,22 @@
 					
 				<!-- TwoPointFive -->
 				<section id="three" class="wrapper style3 fade-up">
-					<div class="inner">
+					<div class="inner tensor">
 						<h2>How are we better?</h2>
 						<h3 style=" font-weight: normal;">Most suggestion algorithms use what is called collective filtering, which essentially just sees what you like and matches you to similar group of people who like the same things. The unfortunate problem with this approach is that each of us is unique, which is why we use content filtering, which means we match the content to you.</h3>
 						<h3 style=" font-weight: normal;">To match you to the content we use a <a href="https://en.wikipedia.org/wiki/Tensor" target="blank">Tensor</a>. This allows us to rank every movie in our database to every other movie in 512 dimensions. This allows us to get a fast and precise rankings for each user. </h3>
 						<br/>
 						<br/>
 						<div class="inner" style="text-align: center;">
-							<h2>What does a tensor look like?</h2>
+							<br/>
+							<br/>
+							<h2>What does a Tensor look like?</h2>
 							<p style="font-size: 22px; " >Check out our interactive map</p>
 						</div>
 						<ul class="actions LearnMoreButton">
-							<li><a href="./plotly_visualization.html" target="_blank" class="button">Tensor</a></li>
+							<li><a href="./plotly_visualization.html" target="_blank" class="button">Interactive Map</a></li>
 						</ul>
+						<img src="images/TensorImage.png" class="TensorImage">
 					</div>
 				</section>
 				<!-- Three -->
@@ -149,32 +168,6 @@
 					<div class="inner">
 						<h2>Who are we?</h2>
 						<h3 style=" font-weight: normal;">Infinimatch was created as part of the Tech Liftoff program, hosted by the Institute for Innovation and Entrepreneurship at Mount Royal University in Calgary Alberta. Designed to solve the problem of poor media recommendations. <a href="https://www.linkedin.com/in/khalaf-elwadya/" target="blank"><strong>Khalaf Elwadya</strong></a>, <a href="https://www.linkedin.com/in/konstantin-kirikeza-b66bb61a6/" target="blank"><strong>Kostya Kirikeza</strong></a>, and <a href="https://www.linkedin.com/in/velibor-tunic-81b9001a6/" target="blank"><strong>Velibor Tunic</strong></a> founded Infinimatch to give movie fans a more accessible way to find new movies to love. </h3>
-					</section>
-				
-				<section id="four" class="wrapper style1 fade-up">
-						<div class="inner">
-							<h2>Join the Waitlist</h2>
-							</br>
-							<div class="">
-								<section>
-									<script type="text/javascript">var submitted=false</script>
-									<iframe name="hiddenConfirm" id="hiddenConfirm" style="display:none;" onload="if(submitted){window.location='submition.html';}"></iframe>
-									<form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSelIZ6exmFhbHta468WozmrqfaUh51g3DMXT1qLIWOhEtP9Zg/formResponse" method="post" target="hiddenConfirm" onsubmit="submitted=true" style="display:grid">
-									  <div class="FormFields">
-										<label>Full Name</label>
-										<input type="text" name="entry.1968374558" required placeholder="Full Name" />
-									  </div>
-									  <br/>
-									  <div class="FormFields">
-										<label>Email</label>
-										<input type="email" name="entry.1025443795" required placeholder="Email" pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,63}$" oninvalid="this.setCustomValidity('Please enter a valid email address')" oninput="this.setCustomValidity('')" />
-									  </div>
-									  <br/>
-									  <button type="submit" style="justify-self: center; width: min-content;" style="font-size: 18px;">Subscribe</button>
-									</form>
-								</section>
-							</div>
-						</div>
 					</section>
 			</div>			
 		
